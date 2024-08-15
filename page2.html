@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="CSS1/page2.css">
+</head>
+<body>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+
+
+
+    <div class="header"> 
+        
+        <img src="img/images.png" alt="" class="Logo2" onclick="location.href ='index.html'">
+        <a class="titulo" href="index.html">JOVIL</a>
+        <br><br><br>
+        <p class="subTitulo">Cadastre-se</p>
+    </div>
+    
+    <div class="cadastro">
+    <div class="borda">
+        <form>
+            <label class="legenda">Nome</label>
+            <br>
+            <input class="valor" type="text" placeholder="Digite o seu Nome" required>
+            <br><br>
+            <label class="legenda2">Sobrenome</label>
+            <br>
+            <input class="valor2" type="text" placeholder="Digite o seu sobrenome" required>
+            <br><br>
+            <label class="legenda3">Telefone</label>
+            <br>
+            <input class="valor3" type="number" placeholder="Digite o seu telefone" required>
+            <br><br>
+            <label class="legenda">E-mail</label>
+            <br>
+            <input class="valor" type="text" placeholder="Digite o seu E-mail" required>
+            <br><br>
+            <label class="legenda4">Senha</label>
+            <br>
+            <input class="valor4" type="password" placeholder="Digite a sua senha" required>
+            <br>
+            <label class="legenda2">CPF</label>
+            <br>
+            <input class="valor2" type="text" placeholder="Digite o seu CPF" required>
+            <br><br>
+            <input class="verificar" type="checkbox" required>
+            <br>
+            <label for="payment">Método de pagamento:</label>
+            <select id="payment" name="payment">
+                <option value="credit-card">cartão de Crédito</option>
+                <option value="pix">Pix</option>
+                <option value="debit-card">Cartão de Débito</option>
+            </select>
+            <b>Concorda com os termos e condições</b>
+            <br>
+            <button class="BotaoEnviar">Enviar</button>
+            
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>

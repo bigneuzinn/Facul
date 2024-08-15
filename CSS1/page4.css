@@ -1,0 +1,62 @@
+body{
+    background-image: url("../img/0b2f156a-0807-4a89-b6ab-297b4fb25b3f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.header {
+    
+    margin-top: -20px;
+    left: 0;
+    width: 100.4%;
+    height: 150px;
+    background-color: rgb(0, 64, 128);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.subTitulo {
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -60px;
+    
+}
+
+
+
+.Logo {
+    height: 138px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+}
+
+.qrcode{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+
+
